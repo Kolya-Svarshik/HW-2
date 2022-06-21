@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color: var(--primary-white-color);
+    background-color: tomato;
     color: var(--primary-text-color);
     font-family: 'Roboto',
     sans-serif;
@@ -41,7 +41,7 @@ body {
     color: var(--tetli-text-color);
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.62;
+        line-height: 1.63;
         text-align: center;
 }
 
@@ -53,6 +53,7 @@ body {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    text-align: center;
 }
 
 
@@ -65,6 +66,10 @@ body {
 
 .site-nav .link {
     color: var(--tetli-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover, .site-nav .link:focus {
